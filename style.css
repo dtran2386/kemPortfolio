@@ -43,7 +43,7 @@ a, a:hover {
 .black2 {
     color: #000;
 }
-#insta {
+.insta {
     font-family: Montserrat, sans-serif;
     width: 100%;
 }
@@ -136,6 +136,33 @@ a, a:hover {
   border-color: transparent;
   color: #fff !important;
 }
+.tab-content {
+    padding-bottom: 200px;
+}
+.flexIt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexIt img {
+    height: 200px;
+    width: 200px;
+    margin: 2%;
+    border: 1px solid #DAA520;
+}
+.rotate90 {
+    transform: rotate(90deg);
+}
+.rotate-90 {
+    transform: rotate(-90deg);
+}
+.rotate180 {
+    transform: rotate(180deg);
+}
+.glyphicon-chevron-up {
+    font-size: 40px;
+}
 footer {
     background-color: #000;
     position: absolute;
@@ -196,6 +223,13 @@ footer .glyphicon {
     .logo {
         font-size: 150px;
     }
+    .flexIt img {
+        width: 100px;
+        height: 100px;
+    }
+    .tab-content {
+        padding-bottom: 100px;
+    }
 }
 
 /* for kem's logo/header name */
@@ -244,7 +278,7 @@ footer .glyphicon {
     background-color: #000;
 }
 .clip-text_four {
-    background-image: url(http://lorempixel.com/480/200/abstract/4);
+    background-image: url(img/goldFlashes.jpeg);
     font-family: 'Oswald', sans-serif;
 }
 @media screen and (max-width: 480px) {
